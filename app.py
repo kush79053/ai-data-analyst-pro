@@ -47,7 +47,7 @@ if file:
         # Generate correlation heatmap
         if st.button("Generate Correlation Heatmap"):
             plt.figure(figsize=(8,5))
-            sns.heatmap(df.corr(), annot=True, cmap="coolwarm")
+            sns.heatmap(df.select_dtypes(include='number').corr(), annot=True, cmap="coolwarm")
             st.pyplot(plt)
 
         st.subheader("Custom Chart")
