@@ -7,7 +7,8 @@ import openai                      # For using LLM (AI insights)
 from fpdf import FPDF              # For generating PDF reports
 
 # Set OpenAI API key (Replace with environment variable in production)
-openai.api_key = "YOUR_API_KEY"
+import os
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Configure Streamlit page
 st.set_page_config(page_title="AI Data Analyst Pro", layout="wide")
