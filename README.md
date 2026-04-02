@@ -31,28 +31,28 @@ An AI-powered data analysis web app built with *Streamlit* and *GPT-4o-mini*. Up
 
 ### 1. Clone the repo
 
-\bash
+bash
 git clone https://github.com/kush79053/ai-data-analyst-pro.git
 cd ai-data-analyst-pro
-\
+
 
 ### 2. Install dependencies
 
-\bash
+bash
 pip install -r requirements.txt
-\
+
 
 ### 3. Set your OpenAI API key
 
-\bash
+bash
 export OPENAI_API_KEY="your-api-key-here"
-\
+
 
 ### 4. Run the app
 
-\bash
+bash
 streamlit run app.py
-\
+
 
 ---
 
@@ -69,25 +69,25 @@ streamlit run app.py
 
 ## Project Structure
 
-\
+
 ai-data-analyst-pro/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 └── README.md
-\
+
 
 ---
 
 ## Requirements
 
-\
+
 streamlit
 pandas
 matplotlib
 seaborn
 openai
 fpdf
-\
+
 
 ---
 
